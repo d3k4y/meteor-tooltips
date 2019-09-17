@@ -121,8 +121,8 @@ Template.tooltips.onCreated ->
 		mq = window.matchMedia(Tooltips.disable)
 		@disabled.set(mq.matches)
 
-		mq.addListener (changed) =>
-		  @disabled.set(changed.matches)
+#		mq.addListener (changed) =>
+#		  @disabled.set(changed.matches)
 
 
 # Template helpers
