@@ -8,10 +8,10 @@ Package.describe({
 Package.on_use(function(api) {
     api.versionsFrom('1.6');
     api.use([
-        'coffeescript',
+        'coffeescript@2.3.2_1',
         'reactive-var',
         'jquery',
-        'templating',
+        'templating@1.3.2',
         'tracker'
     ], 'client');
 
